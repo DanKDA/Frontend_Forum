@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
-import './Styles/Home.css'
+import './Styles/Popular.css'
 import avatar from './img/avatar.webp'
-import coding from './img/coding.jpg'
+import coding from './img/shreck.png'
 import nature from './img/nature.jpg'
 import {FaCaretUp, FaCaretDown, FaComment, FaShare} from "react-icons/fa";
 
@@ -22,7 +22,7 @@ const handleVote = (type) => {
   }
 }
 
-export const Home = () => {
+export const Popular = () => {
   const [isMoreOpen, setIsMoreOpen] = useState(false)
   const [sortBy, setSortBy] = useState('popular')
   const [isSortOpen, setIsSortOpen] = useState(false)
@@ -135,7 +135,7 @@ export const Home = () => {
                 className='vote-icon upvote' 
                 onClick={() => handleVote('up')}
               />
-              <span className='vote-count'>324</span>
+              <span className='vote-count'>67</span>
               <FaCaretDown
                 className='vote-icon downvote' 
                 onClick={() => handleVote('down')}
@@ -204,7 +204,7 @@ export const Home = () => {
                 className='vote-icon upvote' 
                 onClick={() => handleVote('up')}
               />
-              <span className='vote-count'>324</span>
+              <span className='vote-count'>67</span>
               <FaCaretDown
                 className='vote-icon downvote' 
                 onClick={() => handleVote('down')}
@@ -272,7 +272,7 @@ export const Home = () => {
                 className='vote-icon upvote' 
                 onClick={() => handleVote('up')}
               />
-              <span className='vote-count'>324</span>
+              <span className='vote-count'>67</span>
               <FaCaretDown
                 className='vote-icon downvote' 
                 onClick={() => handleVote('down')}
@@ -340,7 +340,7 @@ export const Home = () => {
                 className='vote-icon upvote' 
                 onClick={() => handleVote('up')}
               />
-              <span className='vote-count'>324</span>
+              <span className='vote-count'>67</span>
               <FaCaretDown
                 className='vote-icon downvote' 
                 onClick={() => handleVote('down')}
@@ -408,7 +408,7 @@ export const Home = () => {
                 className='vote-icon upvote' 
                 onClick={() => handleVote('up')}
               />
-              <span className='vote-count'>324</span>
+              <span className='vote-count'>67</span>
               <FaCaretDown
                 className='vote-icon downvote' 
                 onClick={() => handleVote('down')}
@@ -476,7 +476,7 @@ export const Home = () => {
                 className='vote-icon upvote' 
                 onClick={() => handleVote('up')}
               />
-              <span className='vote-count'>324</span>
+              <span className='vote-count'>67</span>
               <FaCaretDown
                 className='vote-icon downvote' 
                 onClick={() => handleVote('down')}
